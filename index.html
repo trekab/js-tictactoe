@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tic Tac Toe</title>
+		<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+  </head>
+  <body class="bg-light">
+		<main class="main">
+			<h1 class = "game-title">Tic Tac Toe</h1>
+			<div class = "board-section" >
+				<div id = "new-game-box" class="new-game-box">
+						<a href	="#" id ="new-game-btn" class="new-game-btn">New Game</a>
+				</div>
+				<div class="winner-banner d-none">
+					<div id = "replay-game-box" class="replay-game-box">
+						<div class="game-result">Player 1 WINS!</div>
+						<a href	="#" id ="replay-game-btn" class="new-game-btn">Play Again</a>
+					</div>
+				</div>
+				<div id = "board" class="board-box d-none">
+					<div class="board-cell" id="box-0"></div>
+					<div class="board-cell" id="box-1"></div>
+					<div class="board-cell" id="box-2"></div>
+					<div class="board-cell" id="box-3"></div>
+					<div class="board-cell" id="box-4"></div>
+					<div class="board-cell" id="box-5"></div>
+					<div class="board-cell" id="box-6"></div>
+					<div class="board-cell" id="box-7"></div>
+					<div class="board-cell" id="box-8"></div>
+				</div>
+				<div id = "player-box" class = "player-box hidden">
+					<div id = "p1-badge" class="player-badge p1">Player 1</div>
+					<div class="score-box"><a href="#" class="reset" id="reset-btn"><i class="fa fa-undo"></i></a></div>
+					<div id = "p2-badge" class="player-badge p2">Player 2</div>	
+				</div>
+			</div>
+		</main>
+		<script type = "module" src="/js/main.js"></script>
+  </body>
+</html>
