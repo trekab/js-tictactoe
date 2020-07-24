@@ -18,15 +18,15 @@
 To get a local copy up and running follow these simple example steps.
 
 To get a local copy up and running follow these simple example steps.
-- git clone git@github.com:aecordova/js-tictactoe.git
+- `git clone git@github.com:trekab/js-tictactoe.git`
 
 Then you browse to the folder and exucute the following commands
-- cd js-tictactoe
-- double click on the index.html file to open the game in your browser.
+- `cd js-tictactoe`
+- double click on the `index.html` file to open the game in your browser.
 
 ### Instructions:
-- Click the New Game button to start the game.
-- Click on the rest button to  restart the current game.
+- Click the `New Game` button to start the game.
+- Click on the `restart` button between the players' names to  restart the current game.
 - Click on the Player pills to enter player names.
 - The application will highlight the player to make the next move.
 - To make a move, click on the desired box/square.
